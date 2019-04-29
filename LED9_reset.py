@@ -49,13 +49,13 @@ def get_carbon_intensity():
         blinking(1)
     sta_if.active(True)
     utime.sleep(1)
-    sta_if.connect('AndroidAP', 'fbas2451')
+    sta_if.connect('SSID', 'PASSWORD')
     utime.sleep(10)
     blinking(2)
     if sta_if.isconnected():
         blinking(3)
         requestUrl = 'https://api.co2signal.com/v1/latest?countryCode=DK-DK1'
-        headers = {'auth-token': '781e3ac61a36e6c8'}
+        headers = {'auth-token': 'TOKEN'}
         response = urequests.get(requestUrl, headers=headers)
         dataObject = response.json()
         blinking(4)
