@@ -2,3 +2,5 @@
 LED strip lights up according to CO2-data from internet.
 Data are CO2-emmission from danish power-consumption in g CO2/kWh.
 More data on www.electricitymap.org.
+
+Currently version 8 is best.
