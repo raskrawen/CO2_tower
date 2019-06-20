@@ -54,7 +54,7 @@ def get_carbon_intensity():
     if sta_if.isconnected():
         blinking(3)
         requestUrl = 'https://api.co2signal.com/v1/latest?countryCode=DK-DK1'
-        headers = {'auth-token': '781e3ac61a36e6c8'}
+        headers = {'auth-token': 'TOKEN'}
         response = urequests.get(requestUrl, headers=headers)
         dataObject = response.json()
         blinking(4)
