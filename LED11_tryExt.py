@@ -1,8 +1,9 @@
 # version 3.3 17.4.2019
 # author: RKW
-# connetion to phone wifi. Reconnects after lost connection.
+# connetion to phone wifi. Reconnects after lost connection. 
+# Tests connection by try..except.
 # test if carbonIntensity exists and if value is a float.
-# keep values between 0 and 30.
+# Keep values between 0 and 30.
 # ESP32-LEDstrip: 
 # GND(GI0)-GND(white), IO16(IO4)-signal(green), 3.3V(NC)-VCC(red)
 # Blink blue LED 0: remainder of loop, show red and green.
